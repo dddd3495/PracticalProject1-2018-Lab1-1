@@ -28,11 +28,14 @@ public class CalculatorTest {
 	
 	@Test
 	public void testMod() {
+		Calculator myCalc = new Calculator();
+		assertEquals(myCalc.mod(2, 3),2);
 		// TODO Complete this test case
 	}
 
 	@Test
 	public void testMultiply() {
+		Calculator myCalc = new Calculator();
 		// TODO Complete this test case
 	}
 	
